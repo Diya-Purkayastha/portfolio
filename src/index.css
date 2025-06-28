@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@plugin "daisyui/theme" {
+    name: "dark";
+    default: true;
+        --color-primary: #ff014f;
+        --color-secondary: #c4cfde;
+        --color-accent: #585e65;
+        --color-neutral: #202123;
+        --color-base-100: #212428; 
+        --color-base-content: #c4cfde; 
+}
