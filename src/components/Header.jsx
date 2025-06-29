@@ -12,7 +12,10 @@ const Header = () => {
     <div className="fixed top-0 left-0 w-full z-50 bg-[#212428] shadow-md">
       <div className="navbar px-4 md:px-10">
         <div className="flex-1">
+          <div className='flex gap-1 items-center'>
+            <img src="https://i.ibb.co/MxbT95CJ/logo.png" className='w-10 rounded-full h-10' alt="" />
           <h1 className="text-2xl font-bold text-[#ff014f]">Diya</h1>
+          </div>
         </div>
 
         {/* Desktop Nav */}
@@ -21,8 +24,10 @@ const Header = () => {
             <Link
               key={section}
               to={section}
-              smooth
+              smooth={true}
               duration={500}
+              spy={true}
+              activeClass="text-[#ff014f]"
               className="cursor-pointer hover:text-[#ff014f] transition"
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}

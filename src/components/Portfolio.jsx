@@ -7,25 +7,25 @@ const projects = [
     title: "Recipe Book",
     desc: "A full-stack web app where users can add, like, and manage recipes with authentication.",
     tech: ["React", "Tailwind", "MongoDB", "Node.js"],
-    image: "/project1.jpg",
-    live: "https://recipebook.com",
+    image: "https://i.ibb.co/LzJyJKsH/13.png",
+    live: "https://recipe-book-sitee.netlify.app/",
     code: "https://github.com/Diya-Purkayastha/recipe-book-client",
   },
   {
     id: 2,
-    title: "Lawyer Booking App",
-    desc: "A lawyer appointment booking app with profile pages, dynamic routes, and local storage.",
-    tech: ["React", "Firebase", "DaisyUI"],
-    image: "/project2.jpg",
-    live: "https://lawyerbookings.netlify.app",
-    code: "https://github.com/programming-hero-web-course1/b11a8-router-booking-Diya-Purkayastha",
+    title: "Virtual Bookshelf",
+    desc: "Virtual Bookshelf lets users track, review, and organize their personal book collection.",
+    tech: ["React", "Firebase", "DaisyUI", "Express", "MongoDB"],
+    image: "https://i.ibb.co/yBFmLFw0/4.png",
+    live: "https://vrbookshelf.netlify.app/",
+    code: "https://github.com/Diya-Purkayastha/virtual-bookshelf-client",
   },
   {
     id: 3,
     title: "Subscription Box",
     desc: "Responsive e-commerce style subscription box platform with user authentication.",
-    tech: ["React", "Firebase", "Express"],
-    image: "/project3.jpg",
+    tech: ["React", "Firebase", "Tailwind"],
+    image: "https://i.ibb.co/0RbZhjDV/9.png",
     live: "https://subscriptionbox.com",
     code: "https://github.com/Diya-Purkayastha/subscription-box",
   },
@@ -60,7 +60,7 @@ const Portfolio = () => {
             transition={{ duration: 0.5, delay: index * 0.15 }}
             whileHover={{
               scale: 1.03,
-              boxShadow: "0px 4px 20px rgba(255, 1, 79, 0.4)", // glowing primary color
+              boxShadow: "0px 4px 20px rgba(255, 1, 79, 0.4)", 
             }}
           >
             {/* Image */}
@@ -68,7 +68,7 @@ const Portfolio = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="rounded-xl w-full object-cover h-72 md:h-80 shadow-md"
+                className="rounded-xl w-full object-fill   h-72 md:h-80 shadow-md"
               />
             </div>
 

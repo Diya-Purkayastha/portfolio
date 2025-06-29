@@ -1,5 +1,5 @@
 // src/components/AboutSection.jsx
-import profile from '../assets/profile.png';
+import profile from '../assets/Programming (1).gif';
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -34,7 +34,7 @@ const About = () => {
           <img
             src={profile}
             alt="About Me"
-            className="rounded-2xl border-4 border-[#ff014f] w-full max-w-sm mx-auto"
+            className="rounded-2xl w-full border-l-1 border-b-1 hover:scale-105 transition-transform max-w-md mx-auto"
           />
         </motion.div>
 

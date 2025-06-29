@@ -1,14 +1,14 @@
 // src/components/HeroSection.jsx
 import { Typewriter } from 'react-simple-typewriter';
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaDribbble, FaTwitter, FaBehance } from 'react-icons/fa';
-import profile from '../assets/profile.png';
+// import profile from '../assets/profile.png';
 import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
     <section
       id="home"
-      className="h-auto md:h-[80vh] flex flex-col md:flex-row items-center justify-center px-6 md:px-20 bg-[#212428] text-white pt-20"
+      className="h-auto md:h-[80vh] max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-center bg-[#212428] text-white pt-20"
     >
      
       {/* Right: Text */}
@@ -75,9 +75,9 @@ const HeroSection = () => {
         viewport={{ once: true }}
       >
         <img
-          src={profile}
+          src='https://i.ibb.co/mVvfsScG/picofme-3.png'
           alt="Profile"
-          className="w-72 h-72 md:w-[22rem] md:h-[22rem] rounded-full object-cover border-4 border-[#ff014f] shadow-lg"
+          className="w-72 h-72 md:w-[24rem] md:h-[24rem] rounded-full object-cover border-4 border-[#ff014f] shadow-lg"
         />
       </motion.div>
     </section>

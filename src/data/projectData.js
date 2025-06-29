@@ -107,7 +107,7 @@ const projects = [
     role: "Frontend Developer",
     duration: "1.5 weeks",
     teamSize: "Solo Project",
-    liveLink: "https://subscriptionbox.com", // Replace with real URL
+    liveLink: "https://subscriptionbox.com", 
     clientRepo: "https://github.com/Diya-Purkayastha/subscription-box",
     overview:
       "SubS.boX is a user-focused subscription box platform. It supports review submissions, protected profiles, and a visually dynamic user experience.",

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import eduimg from '../assets/Learning.gif'
 
 const educationData = [
   {
@@ -62,11 +63,11 @@ const EducationSection = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }} 
-        className="md:w-1/3 flex justify-center md:justify-end">
+        className="md:w-1/3 flex justify-center">
           <img
-            src="/education-illustration.svg" // Update this path to your illustration
+            src={eduimg} 
             alt="Education Illustration"
-            className="w-full max-w-xs md:max-w-sm"
+            className="w-full max-w-xs md:max-w-md mx-auto"
           />
       </motion.div>
         </div>

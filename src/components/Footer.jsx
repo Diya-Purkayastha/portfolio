@@ -5,7 +5,10 @@ const Footer = () => {
     <footer className="bg-neutral text-base-content py-10 px-6 md:px-20 mt-16">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Logo or Name */}
-        <div className="text-2xl font-bold text-primary">Diya's Portfolio</div>
+       
+        <div className="flex gap-1 items-center" >
+           <img src="https://i.ibb.co/MxbT95CJ/logo.png" className='w-10 rounded-full h-10' alt="" /> 
+           <h2 className="text-2xl font-bold text-primary">Diya</h2></div>
 
         {/* Social Links */}
         <div className="flex gap-4">
